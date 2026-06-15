@@ -26,6 +26,7 @@
     总价: {{ cartStore.total }}
 </template>
 <script setup>
+
 import { useCartStore } from '../stores/cartStore';
 import { reactive } from 'vue';
 const cartStore = useCartStore()
